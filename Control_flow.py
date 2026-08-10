@@ -33,7 +33,7 @@ else:
     print("Depromoted")
 
 # match case statements
-'''classes = 4
+classes = 4
 match classes:
     case 1:
         print("class I")
@@ -44,7 +44,7 @@ match classes:
     case 4:
         print("class IV")
     case _:
-        print("Invalid")'''
+        print("Invalid")
 
 # for loop - to iterate over a sequence
 #method 1
