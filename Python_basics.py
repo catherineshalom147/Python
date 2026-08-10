@@ -90,4 +90,36 @@ a //= 2
 a %= 5
 a **= 4
 
-#
+# 3. Comparison operators
+n1 = 25
+n2 = 15
+print(n1 == n2)
+print(n1 != n2)
+print(n1 < n2)
+print(n1 > n2)
+
+# 4. Logical operators
+marks = 50
+result = True
+print(marks>80 or marks<=50)
+print(marks>40 and marks==50)
+print(not result)
+
+# 5. Bitwise operators
+
+print(10 & 3)
+print(3 | 10)
+print(10 ^ 3)
+print(10>>1)
+print(10<<1)
+
+# 6. Membership operators
+string = "it is a python course"
+print("a" in string)
+print('welcome' not in string)
+
+# 7. identity operators
+p = "hey"
+q = 'hey'
+print(p is q)
+print(p is not q)
