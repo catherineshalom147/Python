@@ -14,6 +14,15 @@ print(name[-3])
 print(String[:15:2])
 print(name[-1:-4:-1])
 
+#concatenation of strings
+s1 = "hello"
+s2 = "welcome to python"
+print(s1+s2)
+
+# replication of strings
+s1 = 'cat'
+print(s1 * 5)
+
 # string methods
 print(name.upper()) # upper method
 print(name.lower()) # lower method
